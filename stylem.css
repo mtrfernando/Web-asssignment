@@ -1,68 +1,62 @@
-<!DOCTYPE html>
-<html>
-   <head>
-	   <title></title>
-	   <link href="styleh.css" rel="stylesheet">
-	   <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
-   </head>
-   <body>
-   	   <div class="menu-bar">
-    			<ul>
-    				<li class="active"><a href="#">Home</a></li>
-    				<li><a href="#">About Us</a></li>
-    				<li><a href="#">Contact Us</a></li>
-    				<li><a href="#">Room</a></li>
-    				<li><a href="#">Hotel reservation</a></li>
-    				<li><a href="#">Multiple Hotel</a></li>
-    				<li><a href="#">Registration</a></li>
-     	        </ul>
-    	</div>
-	    <div class="slider">
-            <div class="load">      
-            </div>
-            <div class="content">
-                <div class="principal">
-                    <h1>Sea Side Park Hotel</h1>   
-                </div> 
-            </div> 
-        </div>   
-    </body>
-</html>
-
-
-
-
 *{
 	margin: 0;
 	padding: 0;
+	box-sizing: border-box;
 }
 body{
-	font-family: Bahnschrift Light;
-	background-position: center;
 	background-size: cover;
-	box-sizing: content-box;
+	background-position: center;
+	font-family: Bahnschrift Light;
 }
 .menu-bar{
-	background:transparent;
-	text-align: center;
+	background:#1a1a1a;
+	text-align: center;	
 }
 .menu-bar ul{
 	display: inline-flex;
 	list-style: none;
-	color: #fff;
+	color: #1a1a1a; 
 }
+
 .menu-bar ul li{
-	margin:15px;
-	padding: 15px;
-	width: 120px; 
+	width: 120px;
+	margin: 5px;
+	padding: 5px;
 }
 .menu-bar ul li a{
 	text-decoration: none;
-	color: black;
+	color: #1a1a1a;
 }
 .active, .menu-bar ul li:hover{
-	background:yellow;
-	border-radius: 3px;
+    background: #8db1d8;
+    border-radius: 2px;
+}
+.menu-bar .fa{
+	margin-right: 8px;
+}
+.sub-menu-1{
+	display: none;
+}
+.menu-bar ul li:hover .sub-menu-1{
+	display: block;
+	position: absolute;
+    background-color:#3b71ab;
+    margin-top:10px;
+    margin-left:-15px;
+}
+.menu-bar ul li:hover .sub-menu-1 ul{
+	display: block;
+	margin: 5px;
+}
+.menu-bar ul li:hover .sub-menu-1 ul li{
+	width: 160px;
+	padding: 10px;
+	background:transparent;
+	border-radius: 0;
+	text-align: left;
+}
+.menu-bar ul li:hover .sub-menu-1 ul li a:hover{
+	color: #ffff66;
 }
 .load{
 	animation: slide 2s;

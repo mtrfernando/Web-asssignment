@@ -3,6 +3,33 @@ body{
   margin: 0;
   font-family: Comic Sans MS;
 }   
+.menu-bar{
+    background:#7091a1;
+    text-align: center; 
+}
+.menu-bar ul{
+    display: inline-flex;
+    list-style: none;
+    color: ; 
+}
+
+.menu-bar ul li{
+    width: 120px;
+    margin: 5px;
+    padding: 5px;
+}
+.menu-bar ul li a{
+    font-family: Comic Sans MS;
+    text-decoration: none;
+    color: #fff;
+}
+.active, .menu-bar ul li:hover{
+    background:#576d78 ;
+    border-radius: 2px;
+}
+.menu-bar .fa{
+    margin-right:10px;
+}
 .container{
   width: 60%;
   margin: auto;
@@ -116,3 +143,4 @@ body{
         width: 50%;
 }
 }
+
