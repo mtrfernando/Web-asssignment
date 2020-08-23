@@ -1,0 +1,66 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: Comic Sans MS;
+}
+body{
+	background: yellow;
+	padding: 20px;
+}
+.register{
+	background: #fff;
+	margin: 20px auto;
+	padding: 30px;
+    max-width: 500px;
+    width: 100%;
+}
+.register .title{
+	text-align: center;
+	font-size: 40px;
+	font-weight: 700;
+	margin-bottom: 25px;
+	color: red;
+	text-transform: uppercase;
+}
+.register .form{
+	width: 100%;
+}
+.register .form .input_field{
+    align-items: center;
+    margin-bottom: 10px;
+    display: flex;
+}
+.register .form .input_field label{
+	width:180px;
+	margin-right:10px;
+	font-size: 14px;
+    color: #757575;
+}
+.register .form .input_field .input,
+.register .form .input_field .textarea{
+	font-size: 14px;
+	outline: none;
+	width: 100%;
+	border: 1px solid #d5dbd9;
+	padding: 8px 10px;
+	border-radius: 3px;
+	transition: all 0.3s ease;
+
+}
+.register .form .input_field .textarea{
+	height: 125px;
+}
+.register .form .input_field .custom_select{
+	position: relative;
+	width:100%;
+	height: 40px;
+}
+.register .form .input_field .custom_select select{
+	appearance:none;
+	border: 1px solid #d5dbd9;
+	padding: 8px 10px;
+	border-radius: 3px;
+	width: 100%;
+	height: 100%;
+}
