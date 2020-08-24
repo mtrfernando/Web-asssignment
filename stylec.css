@@ -2,15 +2,15 @@ body{
   padding: 0;
   margin: 0;
   font-family: Comic Sans MS;
+  background:#121211;
 }   
 .menu-bar{
-    background:#7091a1;
     text-align: center; 
 }
 .menu-bar ul{
     display: inline-flex;
     list-style: none;
-    color: ; 
+    color:#12121 ; 
 }
 
 .menu-bar ul li{
